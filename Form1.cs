@@ -65,10 +65,5 @@ namespace NuGetDebugSwitcher
             txtOutputDebug.Text = new SymLinkOperations().SymLink(txtSwitchProjectsToDebugDirectory.Text, txtNuGetPackage.Text, txtDebugProjRef.Text, packageVersion, createNotRemove);
 
         }
-
-        private void btnSourceLanguageDir_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

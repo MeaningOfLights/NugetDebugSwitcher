@@ -243,7 +243,7 @@
             txtSwitchProjectsToDebugDirectory.Name = "txtSwitchProjectsToDebugDirectory";
             txtSwitchProjectsToDebugDirectory.Size = new Size(540, 27);
             txtSwitchProjectsToDebugDirectory.TabIndex = 7;
-            txtSwitchProjectsToDebugDirectory.Text = "C:\\Dev\\ProjectWithNuGetRef\\api\\src\\ProjectA.Api\\";
+            txtSwitchProjectsToDebugDirectory.Text = "C:\\Dev\\Solution1\\src\\ProjectA\\";
             // 
             // label5
             // 
@@ -260,7 +260,7 @@
             txtDebugProjRef.Name = "txtDebugProjRef";
             txtDebugProjRef.Size = new Size(608, 27);
             txtDebugProjRef.TabIndex = 4;
-            txtDebugProjRef.Text = "C:\\Dev\\DebugProjectOfNuGet\\api\\src\\Base\\bin\\Debug";
+            txtDebugProjRef.Text = "C:\\Dev\\Library1\\src\\Base\\bin\\Debug";
             // 
             // btnAddSymLink
             // 
@@ -306,7 +306,6 @@
             btnSourceLanguageDir.TabIndex = 1;
             btnSourceLanguageDir.Text = "...";
             btnSourceLanguageDir.UseVisualStyleBackColor = true;
-            btnSourceLanguageDir.Click += btnSourceLanguageDir_Click;
             // 
             // txtOutput
             // 

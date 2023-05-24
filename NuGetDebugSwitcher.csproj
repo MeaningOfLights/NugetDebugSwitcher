@@ -8,10 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationIcon>NugetDebugSwitcher.ico</ApplicationIcon>
 
-   <!--<OutputType>Exe</OutputType>-->
+   <!--<OutputType>Exe</OutputType>
 	<PublishSingleFile>true</PublishSingleFile>
 	<SelfContained>true</SelfContained>
-	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>-->
   </PropertyGroup>
 
   <ItemGroup>
