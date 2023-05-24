@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+   <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>NugetDebugSwitcher.ico</ApplicationIcon>
+
+   <!--<OutputType>Exe</OutputType>-->
+	<PublishSingleFile>true</PublishSingleFile>
+	<SelfContained>true</SelfContained>
+	<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="NugetDebugSwitcher.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Buildalyzer" Version="5.0.0" />
+    <PackageReference Include="Murphy.SymbolicLink" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
